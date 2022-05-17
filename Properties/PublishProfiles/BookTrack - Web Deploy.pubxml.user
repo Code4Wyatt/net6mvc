@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAzIBr8NGZG0umaEjLzynbbwAAAAACAAAAAAAQZgAAAAEAACAAAADeSgnCwvjduJ7hXOE2OpozIleaMt7mt7VNFBdUUtIcpwAAAAAOgAAAAAIAACAAAAANzEdgdvKxtl54+mX7zhU3li/rLLrwv0DYrCrlurAo8oAAAADR2zmwqHzJ7uq1k7Lz8HsfC/2e+Je1k9ln994VSXfyt5OhtBZLWtSTXjm16iBUiI0HJkCVjhzUdxmtudDt0j6lusDtL9rjFmFzazVqVxKf53sB05+8H5vPlotDPRo06HREJLQeJr58A/ZjN/6jT1Cjo3T6/sje6KkgmbrQvyqulEAAAADThBRgAZPb/Y7aDkaJnEH8Ws6Du8cE2M/cZIhUiGhUm2SfutEn1pV79S6Ri58tTHVAqQGYUbI9T1nAEbBh96T8</EncryptedPassword>
+    <History>True|2022-05-17T19:35:16.3510493Z;False|2022-05-17T20:29:17.1396947+01:00;</History>
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="DefaultConnection">
+      <Value>Server=tcp:dotnetpracticeserver.database.windows.net,1433%3bInitial Catalog=dotnet6%3bPersist Security Info=False%3bUser ID=admin-sql%3bPassword=Fullst4ck!%3bMultipleActiveResultSets=False%3bEncrypt=True%3bTrustServerCertificate=False%3bConnection Timeout=30%3b</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="BulkyBookWeb.Data.AppDbContext">
+      <Value>Server=tcp:dotnetpracticeserver.database.windows.net,1433%3bInitial Catalog=dotnet6%3bPersist Security Info=False%3bUser ID=admin-sql%3bPassword=Fullst4ck!%3bMultipleActiveResultSets=False%3bEncrypt=True%3bTrustServerCertificate=False%3bConnection Timeout=30%3b</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>
